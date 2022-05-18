@@ -78,9 +78,17 @@ Masukan codingan dibawah ini pada file php_dasar.php
 ```html
 <h2>Menggunakan Variabel</h2>
     <?php
-        $nim = "0411500400";
-        $nama = 'Abdullah';
+        $nim = "312010373";
+        $nama = 'Berliana Noviansyah';
         echo "NIM : " . $nim . "<br>";
         echo "Nama : $nama";
     ?>
 ```
+
+Buka dengan URL: http://localhost/lab7web/lab7_php_dasar/php_dasar.php/
+
+Dan didapatkan hasil:
+
+
+![Variabel_PHP](img/variabel_php.png
+)
