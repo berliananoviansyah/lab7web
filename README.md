@@ -311,3 +311,27 @@ Dengan Output sebagai berikut:
 ![Perulangan_WHILE](img/Perulangan_WHILE.png)
 
 
+## 13). Perulangan DOWHILE
+
+
+```php
+<!-- Perulangan DOWHILE -->
+<h2>Perulangan DOWHILE</h2>
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+    $i=1;
+    do {
+        echo "Perulangan ke: " . $i . '<br />';
+        $i++;
+} while ($i<=10);
+?>
+```
+
+
+URL: http://localhost/lab7web/lab7_php_dasar/perulangan.php
+
+
+Tampilan:
+
+
+![Perulangan_DOWHILE](img/Perulangan_DOWHILE.png)
