@@ -139,6 +139,45 @@ Lalu didapatkan hasil sebagai berikut:
 Untuk mengakses web tersebut, masukkan URL:http://localhost/lab7web/lab7_php_dasar/latihan3.php
 
 
-Lalu ini nama yang telat dimasukkan pada bagian sebelumnya, klik kirim.
+Lalu isi nama yang telah dimasukkan pada bagian sebelumnya, klik kirim.
 
 ![Form_Input](img/form_input.png)
+
+
+
+## 8). Operator
+
+Masukan codingan seperti dibawah ini:
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Operator</h2>
+    <?php
+        $gaji = 1500000;
+        $pajak = 0.1;
+        $thp = $gaji - ($gaji*$pajak);
+        echo "Gaji sebelum pajak = Rp. $gaji <br>";
+        echo "Gaji yang dibawa pulang = Rp. $thp";
+    ?>
+</body>
+</html>
+```
+
+
+Lalu akses URL:http://localhost/lab7web/lab7_php_dasar/operator.php
+
+
+Dan tampilannya adalah sebagai berikut:
+
+![Operator](img/operator.png)
+
+
+
