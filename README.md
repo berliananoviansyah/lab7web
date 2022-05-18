@@ -45,24 +45,42 @@ Kemudian akses directory pada web server dengan mengakses URL:http://localhost/l
 
 Buatlah file di dalam folder **lab7_php_dasar** dengan nama **php_dasar.php**
 
-![PHP_Dasar](img/php_dasar.png)
-
 Kemudian buat kode seperti ini: 
 
 ```html
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>PHP Dasar</title>
+    <meta charset="UTF-8">
+    <title>PHP Dasar</title>
 </head>
 <body>
-<h1>Belajar PHP Dasar</h1>
-<?php
-echo "Hello World";
-?>
+    <h1>Belajar PHP Dasar</h1>
+    <?php
+        echo "Hello World";
+    ?>
 </body>
 </html>
 ```
 
+Lalu akses hasilnya melalui URL:http://localhost/lab7web/lab7_php_dasar/php_dasar.php/
 
+Outputnya:
+
+![PHP_dasar](img/php_dasar.png)
+
+
+
+## 5). Variable PHP
+
+Masukan codingan dibawah ini pada file php_dasar.php
+
+```html
+<h2>Menggunakan Variabel</h2>
+    <?php
+        $nim = "0411500400";
+        $nama = 'Abdullah';
+        echo "NIM : " . $nim . "<br>";
+        echo "Nama : $nama";
+    ?>
+```
