@@ -217,5 +217,40 @@ Akses URL:http://localhost/lab7web/lab7_php_dasar/kondisi.php
 
 
 
-## 10). 
+## 10). Kondisi SWITCH
+
+```php
+<!-- Kondisi Switch -->
+    <h2>Kondisi Switch</h2>
+    <?php
+        $nama_hari = date("l");
+        switch ($nama_hari) {
+            case "Sunday":
+                 echo "Minggu";
+                 break;
+            case "Monday":
+                echo "Senin";
+                break;
+             case "Tuesday":
+                 echo "Selasa";
+                break;
+            default:
+                echo "Sabtu"; 
+            }
+            echo "/$nama_hari";
+    ?>
+</body>
+</html>
+```
+
+
+Akses URL: http://localhost/lab7web/lab7_php_dasar/kondisi.php
+
+
+Dan tampilannya sebagai berikut:
+
+![Kondisi_SWITCH](img/kondisi_switch.png)
+
+
+
 
