@@ -75,7 +75,7 @@ Outputnya:
 
 Masukan codingan dibawah ini pada file php_dasar.php
 
-```html
+```php
 <h2>Menggunakan Variabel</h2>
     <?php
         $nim = "312010373";
@@ -90,5 +90,21 @@ Buka dengan URL: http://localhost/lab7web/lab7_php_dasar/php_dasar.php/
 Dan didapatkan hasil:
 
 
-![Variabel_PHP](img/variabel_php.png
-)
+![Variabel_PHP](img/variabel_php.png)
+
+
+
+## 6). Predefine Variable $_GET
+
+Buat Codingan sebagai berikut :
+
+```php
+<?php
+echo 'Selamat Datang ' . $_GET['nama'];
+?>
+```
+Dan akses URL:http://localhost/lab7web/lab7_php_dasar/latihan2.php?nama=Berliana%20Noviansyah.
+
+
+Lalu didapatkan hasil sebagai berikut:
+![Predefine_Variable](img/predefine_variable.png)
