@@ -253,4 +253,32 @@ Dan tampilannya sebagai berikut:
 
 
 
+## 11). Perulangan FOR
 
+
+Buat codingan seperti dibawah ini pada file **perulangan.php**
+
+```php
+<h2>Perulangan FOR</h2>
+    <?php
+        echo "Perulangan 1 sampai 10 <br />";
+        for ($i=1; $i<=10; $i++) {
+            echo "Perulangan ke: " . $i . '<br />';
+}
+        echo "Perulangan Menurun dari 10 ke 1 <br />";
+        for ($i=10; $i>=1; $i--) {
+            echo "Perulangan ke: " . $i . '<br />';
+}
+?>
+```
+
+
+Lalu akses dengan URL berikut:
+http://localhost/lab7web/lab7_php_dasar/perulangan.php
+
+
+
+Dengan output sebagai berikut:
+
+
+![Perulangan_FOR](img/Perulangan_FOR.png)
