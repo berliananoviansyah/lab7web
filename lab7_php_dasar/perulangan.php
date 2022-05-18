@@ -9,3 +9,14 @@
             echo "Perulangan ke: " . $i . '<br />';
 }
 ?>
+
+<!-- Perulangan While -->
+<h2>Perulangan WHILE</h2>
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+    $i=1;
+    while ($i<=10) {
+        echo "Perulangan ke: " . $i . '<br />';
+        $i++;
+}
+?>
