@@ -37,4 +37,32 @@ Kemudian akses directory pada web server dengan mengakses URL:http://localhost/l
 
 
 ![URL](img/running_webserver2.png)
-tes
+
+
+
+
+## 4). PHP Dasar
+
+Buatlah file di dalam folder **lab7_php_dasar** dengan nama **php_dasar.php**
+
+![PHP_Dasar](img/php_dasar.png)
+
+Kemudian buat kode seperti ini: 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PHP Dasar</title>
+</head>
+<body>
+<h1>Belajar PHP Dasar</h1>
+<?php
+echo "Hello World";
+?>
+</body>
+</html>
+```
+
+
